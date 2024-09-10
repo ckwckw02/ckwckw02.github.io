@@ -152,7 +152,7 @@
             console.log(classPrediction);
 
             // If the prediction probability is greater than 50%, call the associated API
-            if (probability > 0.5) {
+            if (probability > 0.89) {
                 const apiUrl = document.getElementById(`class${i + 1}`).value.trim(); // Get the API URL input for this class
 
                 if (apiUrl) { // Only make a request if the URL is not empty
